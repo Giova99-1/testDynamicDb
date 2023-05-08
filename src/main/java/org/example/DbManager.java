@@ -6,8 +6,8 @@ import java.util.List;
 public class DbManager {
 
     public String dbConnectionString = "jdbc:postgresql://localhost/food_storage";
-    private String usr ="pi";
-    private String pass ="raspberry";
+    private String usr ="user";
+    private String pass ="password";
 
     private Connection connection;
 
